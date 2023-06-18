@@ -1,0 +1,35 @@
+section{
+    padding: 0px 200px;
+}
+.menu{
+    height: 100vh;
+    background-color: gray;
+}
+.text > ul > li > a{
+    color: white;
+    text-transform: uppercase;
+}
+li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+li:hover{
+    background-color: antiquewhite;
+}
+a{
+    text-decoration: none;
+}
+.menu-bar{
+	display: grid;
+	grid: auto / auto auto auto;
+	grid-gap: 21px;
+	padding-top: 140px;
+    margin: -86px;
+}
+.tt {
+    background-color: red;
+}
+.yy > img{
+    height: 200px;
+    width: 200px;
+}
